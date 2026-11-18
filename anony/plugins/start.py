@@ -35,8 +35,8 @@ async def start(_, message: types.Message):
     )
 
     key = buttons.start_key(message.lang, private)
-    await message.reply_photo(
-        photo=config.START_IMG,
+    await message.reply_video(
+        video=config.START_IMG,
         caption=_text,
         reply_markup=key,
     )
@@ -80,3 +80,4 @@ async def _new_member(_, message: types.Message):
                 return
             await utils.send_log(message, True)
             await db.add_chat(message.chat.id)
+        
