@@ -9,21 +9,21 @@ class Config:
         self.API_HASH = getenv("API_HASH", "22adb8c3d3f905d09fe41cf4ae805b71")
 
         self.BOT_TOKEN = getenv("BOT_TOKEN", "9173764504:AAGRt39tiyTaRW1jJOtjhyraKSUfvT-omAU")
-        self.MONGO_URL = getenv("MONGO_URL", "mongodb+srv://public:abishnoimf@cluster0.rqk6ihd.mongodb.net/?retryWrites=true&w=majority")
+        self.MONGO_URL = getenv("MONGO_URL", "mongodb+srv://Yash:80571457Ya@cluster0.pgtxsro.mongodb.net/")
 
-        self.LOGGER_ID = int(getenv("LOGGER_ID", -1003150808065))
+        self.LOGGER_ID = int(getenv("LOGGER_ID", -1004423141244))
         self.OWNER_ID = int(getenv("OWNER_ID", 8516736963))
 
         self.DURATION_LIMIT = int(getenv("DURATION_LIMIT", 60)) * 60
         self.QUEUE_LIMIT = int(getenv("QUEUE_LIMIT", 20))
         self.PLAYLIST_LIMIT = int(getenv("PLAYLIST_LIMIT", 20))
 
-        self.SESSION1 = getenv("SESSION", "BAIgI4sAqBGlPQAYu39MR0OcmFCRj-x9i9ggs7IxaEnDi4tco-A-oUW8aSC7hLXkaqEAtp88RaxlANlEFBKFqoUTY2WO6hkwF1AegXtaKqVJl9MIi-k72bSG4GDT1dKwuaexTJ4sb6-icn3HT0uAfDVZQTQKcT9lyYTg2TMoZXAO3A2Z_3mCtHXjZBerUglQdJxJR9FchqcOA-DvFklYyqe08k3EHL0FROtnLFgCmmauPXm5Uo3WHKGF4M4Gkcl1mbuvhD1N1ycDCcWXZx5c51lh42rEukTQKA2S6QMARWxXNnNCQPNk5gVHKJDCZrtnsJl9Zg1WABQs1D-BzYMMepVKfrbpgQAAAAIJ678XAA")
+        self.SESSION1 = getenv("SESSION", "AQFRwgAAeslA5lD6moL5N7tOIzOKKf2bjUWgWCDJwAV9ijo11zJih7xtOn-jBjEJfkjTCyXpK7jJwQD3JcT6wYV_uUNoET4ZY3WPSyq3f8kzJ755FSwBFNW-sOqGBvJ6MfB_KC0mvKX_llju1uLhUrgWJw7Sid5OXp31psWbtyyxMBK142NCQ5DQXadUDiSwJCgBM8oq3KDfqh33FN2R4uu0SCoSXbOHhlb7J0BWhABuuFgz0XZurwqDVXZPsqcorvOpLrzLF6Oz4pbsWmdn8tSc_p8xP8A8XvjM0-Kbra1QYYKTzj5Vd0iliCI54HsmXtky9pRjCFlLfBnsDJfqAh77fe_0ngAAAAIV40B-AA")
         self.SESSION2 = getenv("SESSION2", None)
         self.SESSION3 = getenv("SESSION3", None)
 
-        self.SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Senpai_Updates")
-        self.SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/THE_DRAGON_SUPPORT")
+        self.SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/mizuu_update")
+        self.SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/vistoriyachat")
 
         self.AUTO_LEAVE: bool = getenv("AUTO_LEAVE", "False").lower() == "true"
         self.AUTO_END: bool = getenv("AUTO_END", "False").lower() == "true"
